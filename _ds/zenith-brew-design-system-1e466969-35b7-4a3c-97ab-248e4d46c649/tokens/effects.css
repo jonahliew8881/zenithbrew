@@ -1,0 +1,28 @@
+/* Zenith Brew — radius, stroke, shadow, angle
+   radius-sm / radius-lg / stroke-hairline / angle-accent named in guide
+   page 2 (no numeric values supplied). Values below were chosen to match
+   the brand mark's geometry: thin hairline strokes, low-poly angled facets
+   (the mountain/triangle motif), and modest radii — corners are cut with
+   angle more often than heavily rounded. */
+
+:root {
+  --radius-sm: 4px;
+  --radius-md: 10px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --stroke-hairline: 1px;
+  --stroke-medium: 1.5px;
+
+  --angle-accent: 8deg; /* @kind other */
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 48, 0.06), 0 1px 1px rgba(15, 23, 48, 0.04);
+  --shadow-md: 0 4px 16px rgba(15, 23, 48, 0.08), 0 1px 2px rgba(15, 23, 48, 0.06);
+  --shadow-lg: 0 16px 40px rgba(15, 23, 48, 0.14), 0 4px 12px rgba(15, 23, 48, 0.08);
+
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --duration-fast: 120ms; /* @kind other */
+  --duration-standard: 220ms; /* @kind other */
+  --duration-slow: 360ms; /* @kind other */
+}

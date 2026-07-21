@@ -1,0 +1,41 @@
+/* Zenith Brew — color tokens
+   Base values are taken verbatim from the brand guide PDF (page 1):
+   color-primary, color-accent, color-base, color-primary-tint,
+   color-accent-tint, color-primary-shade, color-neutral. */
+
+:root {
+  /* Base palette (from brand guide) */
+  --color-primary: #1D2951;        /* deep navy — wordmark "BREW", ink */
+  --color-accent: #C5A059;         /* warm gold — wordmark "ZENITH", monogram Z */
+  --color-base: #F4F6FC;           /* pale cool white — page background */
+  --color-primary-tint: #8C93AD;   /* muted blue-grey */
+  --color-accent-tint: #DCC79A;    /* soft sand/gold */
+  --color-primary-shade: #0F1730;  /* near-black navy — darkest ink */
+  --color-neutral: #FFFFFF;        /* pure white */
+
+  /* Semantic aliases — use these in components, not the base tokens */
+  --surface-page: var(--color-base);
+  --surface-card: var(--color-neutral);
+  --surface-sunken: #EAEEF7;
+  --surface-inverse: var(--color-primary-shade);
+
+  --text-primary: var(--color-primary-shade);
+  --text-secondary: var(--color-primary-tint);
+  --text-on-accent: var(--color-neutral);
+  --text-on-inverse: var(--color-base);
+
+  --accent: var(--color-accent);
+  --accent-hover: #B08D45;
+  --accent-tint: var(--color-accent-tint);
+  --accent-shade: #9C7C3E;
+
+  --border-hairline: rgba(29, 41, 81, 0.16);
+  --border-hairline-strong: rgba(29, 41, 81, 0.32);
+  --border-accent: rgba(197, 160, 89, 0.55);
+
+  --focus-ring: var(--color-accent);
+
+  --state-success: #3E7A5C;
+  --state-warning: #B08D45;
+  --state-danger: #A34D3C;
+}

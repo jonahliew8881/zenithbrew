@@ -1,0 +1,15 @@
+/* Zenith Brew — webfonts
+   NOTE: no font files were supplied with the brand guide, and the guide PDF
+   only listed color tokens by name (no typeface names). The wordmark in
+   the logo uses a thin, wide-tracked serif (uppercase) for ZENITH/BREW and
+   a monoline connected script for the tagline. Nearest Google Fonts matches
+   are loaded below — see readme.md "Typography" for the substitution flag. */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Jost:wght@400;500;600&family=Caveat:wght@500;600&display=swap');
+
+/* Semantic font family aliases, so components never hardcode a family name */
+:root {
+  --font-display: 'Cormorant Garamond', 'Times New Roman', serif; /* wordmark, headlines */
+  --font-body: 'Jost', 'Century Gothic', sans-serif;               /* UI text, body copy */
+  --font-script: 'Caveat', cursive;                                 /* tagline, accent notes */
+}

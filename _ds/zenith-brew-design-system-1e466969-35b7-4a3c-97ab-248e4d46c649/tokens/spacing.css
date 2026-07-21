@@ -1,0 +1,20 @@
+/* Zenith Brew — spacing
+   space-unit token named in guide page 2 (no numeric value supplied);
+   8px base unit chosen as a standard, comfortable rhythm. */
+
+:root {
+  --space-unit: 8px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  --container-max: 1200px;
+  --container-narrow: 720px;
+}
